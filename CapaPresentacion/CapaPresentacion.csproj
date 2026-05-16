@@ -123,10 +123,6 @@
     <None Include="Resources\login imagen.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
-      <Project>{de12b243-1c86-4acf-9c81-83f5a6471d79}</Project>
-      <Name>CapaEntidad</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
       <Project>{cee8c5eb-59e4-4f06-82da-1b0ae40ebab3}</Project>
       <Name>CapaNegocio</Name>
