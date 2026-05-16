@@ -79,10 +79,10 @@
             this.panel1.Controls.Add(this.btnMaestro);
             this.panel1.Controls.Add(this.btnContacto);
             this.panel1.Controls.Add(this.btnMaterias);
-            this.panel1.Location = new System.Drawing.Point(18, 37);
+            this.panel1.Location = new System.Drawing.Point(-10, -4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(286, 872);
+            this.panel1.Size = new System.Drawing.Size(314, 913);
             this.panel1.TabIndex = 1;
             // 
             // button1
@@ -206,7 +206,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(314, 37);
+            this.panel2.Location = new System.Drawing.Point(376, 18);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1014, 101);
@@ -287,10 +287,10 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Location = new System.Drawing.Point(62, 919);
+            this.panel4.Location = new System.Drawing.Point(54, 946);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1244, 73);
+            this.panel4.Size = new System.Drawing.Size(1711, 73);
             this.panel4.TabIndex = 6;
             // 
             // label1
@@ -309,10 +309,10 @@
             this.panel3.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondos_sistema;
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.panel5);
-            this.panel3.Location = new System.Drawing.Point(346, 148);
+            this.panel3.Location = new System.Drawing.Point(424, 163);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(928, 746);
+            this.panel3.Size = new System.Drawing.Size(998, 726);
             this.panel3.TabIndex = 7;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -466,7 +466,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondos_sistema;
-            this.ClientSize = new System.Drawing.Size(1346, 992);
+            this.ClientSize = new System.Drawing.Size(1653, 1050);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);

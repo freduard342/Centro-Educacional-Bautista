@@ -50,7 +50,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(149, 152);
+            this.label1.Location = new System.Drawing.Point(208, 155);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 22);
             this.label1.TabIndex = 0;
@@ -71,16 +71,16 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(191, 51);
+            this.panel1.Location = new System.Drawing.Point(762, 149);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(409, 617);
+            this.panel1.Size = new System.Drawing.Size(556, 672);
             this.panel1.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(85, 554);
+            this.label5.Location = new System.Drawing.Point(161, 560);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(219, 20);
             this.label5.TabIndex = 11;
@@ -89,7 +89,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(102, 587);
+            this.linkLabel1.Location = new System.Drawing.Point(190, 593);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(172, 20);
             this.linkLabel1.TabIndex = 10;
@@ -100,7 +100,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(89, 491);
+            this.button1.Location = new System.Drawing.Point(165, 491);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(213, 42);
             this.button1.TabIndex = 9;
@@ -112,7 +112,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(36, 438);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(320, 28);
+            this.comboBox1.Size = new System.Drawing.Size(400, 28);
             this.comboBox1.TabIndex = 8;
             this.comboBox1.Text = "Selecciona tu Rol";
             // 
@@ -130,7 +130,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(36, 346);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(320, 26);
+            this.textBox2.Size = new System.Drawing.Size(400, 26);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "Ingresa tu Contraseña ";
             // 
@@ -146,9 +146,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 254);
+            this.textBox1.Location = new System.Drawing.Point(36, 255);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(320, 26);
+            this.textBox1.Size = new System.Drawing.Size(400, 26);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Ingresa tu Usuario";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -168,9 +168,9 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox1.BackgroundImage = global::CapaPresentacion.Properties.Resources.WhatsApp_Image_2026_05_15_at_11_57_43_AM;
             this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.WhatsApp_Image_2026_05_15_at_11_57_43_AM;
-            this.pictureBox1.Location = new System.Drawing.Point(153, 29);
+            this.pictureBox1.Location = new System.Drawing.Point(194, 15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 105);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 134);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -178,7 +178,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.login_imagen;
-            this.pictureBox2.Location = new System.Drawing.Point(106, 140);
+            this.pictureBox2.Location = new System.Drawing.Point(165, 155);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(37, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -191,11 +191,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.fondos_sistema;
-            this.ClientSize = new System.Drawing.Size(774, 763);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "FormLogin";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
