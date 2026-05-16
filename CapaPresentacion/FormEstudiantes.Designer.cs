@@ -57,16 +57,20 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.LabelPanel);
             this.panel1.Controls.Add(this.btnEstudiante);
@@ -82,11 +86,12 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightBlue;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(33, 782);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
@@ -98,22 +103,24 @@
             // LabelPanel
             // 
             this.LabelPanel.AutoSize = true;
-            this.LabelPanel.Font = new System.Drawing.Font("Ink Free", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelPanel.ForeColor = System.Drawing.Color.Black;
-            this.LabelPanel.Location = new System.Drawing.Point(21, 43);
+            this.LabelPanel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.LabelPanel.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelPanel.ForeColor = System.Drawing.Color.White;
+            this.LabelPanel.Location = new System.Drawing.Point(4, 25);
             this.LabelPanel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelPanel.Name = "LabelPanel";
-            this.LabelPanel.Size = new System.Drawing.Size(223, 45);
+            this.LabelPanel.Size = new System.Drawing.Size(273, 66);
             this.LabelPanel.TabIndex = 1;
-            this.LabelPanel.Text = "Panel Admin ";
+            this.LabelPanel.Text = "📖 Sistema de Gestion \r\nde Calificaciones";
             // 
             // btnEstudiante
             // 
-            this.btnEstudiante.BackColor = System.Drawing.Color.LightBlue;
+            this.btnEstudiante.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnEstudiante.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnEstudiante.FlatAppearance.BorderSize = 0;
             this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstudiante.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiante.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiante.ForeColor = System.Drawing.Color.White;
             this.btnEstudiante.Location = new System.Drawing.Point(4, 194);
             this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEstudiante.Name = "btnEstudiante";
@@ -124,11 +131,12 @@
             // 
             // btnCurso
             // 
-            this.btnCurso.BackColor = System.Drawing.Color.LightBlue;
+            this.btnCurso.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnCurso.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCurso.FlatAppearance.BorderSize = 0;
             this.btnCurso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCurso.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurso.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurso.ForeColor = System.Drawing.Color.White;
             this.btnCurso.Location = new System.Drawing.Point(4, 318);
             this.btnCurso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCurso.Name = "btnCurso";
@@ -139,11 +147,12 @@
             // 
             // btnMaestro
             // 
-            this.btnMaestro.BackColor = System.Drawing.Color.LightBlue;
+            this.btnMaestro.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnMaestro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnMaestro.FlatAppearance.BorderSize = 0;
             this.btnMaestro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaestro.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaestro.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaestro.ForeColor = System.Drawing.Color.White;
             this.btnMaestro.Location = new System.Drawing.Point(26, 403);
             this.btnMaestro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaestro.Name = "btnMaestro";
@@ -154,11 +163,12 @@
             // 
             // btnContacto
             // 
-            this.btnContacto.BackColor = System.Drawing.Color.LightBlue;
+            this.btnContacto.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnContacto.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnContacto.FlatAppearance.BorderSize = 0;
             this.btnContacto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnContacto.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContacto.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContacto.ForeColor = System.Drawing.Color.White;
             this.btnContacto.Location = new System.Drawing.Point(4, 655);
             this.btnContacto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnContacto.Name = "btnContacto";
@@ -169,11 +179,12 @@
             // 
             // btnMaterias
             // 
-            this.btnMaterias.BackColor = System.Drawing.Color.LightBlue;
+            this.btnMaterias.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnMaterias.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnMaterias.FlatAppearance.BorderSize = 0;
             this.btnMaterias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaterias.Font = new System.Drawing.Font("Ink Free", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaterias.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaterias.ForeColor = System.Drawing.Color.White;
             this.btnMaterias.Location = new System.Drawing.Point(4, 537);
             this.btnMaterias.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaterias.Name = "btnMaterias";
@@ -184,6 +195,9 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.btnCerrarSeccion);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -192,7 +206,7 @@
             this.panel2.Location = new System.Drawing.Point(320, 18);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(948, 62);
+            this.panel2.Size = new System.Drawing.Size(948, 101);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -213,7 +227,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(636, 25);
+            this.label3.Location = new System.Drawing.Point(606, 25);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
@@ -223,7 +237,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.login_imagen;
-            this.pictureBox1.Location = new System.Drawing.Point(570, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(559, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 40);
@@ -235,7 +249,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 15);
+            this.label2.Location = new System.Drawing.Point(108, 19);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(264, 22);
@@ -257,10 +271,10 @@
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(324, 97);
+            this.panel3.Location = new System.Drawing.Point(334, 153);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(944, 694);
+            this.panel3.Size = new System.Drawing.Size(934, 672);
             this.panel3.TabIndex = 2;
             // 
             // cmbCurso
@@ -371,7 +385,7 @@
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnRegistrar.Font = new System.Drawing.Font("Ink Free", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(364, 815);
+            this.btnRegistrar.Location = new System.Drawing.Point(390, 835);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(135, 55);
@@ -383,7 +397,7 @@
             // 
             this.btnVolver.BackColor = System.Drawing.Color.Silver;
             this.btnVolver.Font = new System.Drawing.Font("Ink Free", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(528, 815);
+            this.btnVolver.Location = new System.Drawing.Point(595, 835);
             this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(126, 55);
@@ -410,6 +424,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = " © 2026 Centro Educacional Bautista. centro educacional bautista";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.WhatsApp_Image_2026_05_15_at_11_57_43_AM;
+            this.pictureBox2.Location = new System.Drawing.Point(14, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(87, 69);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(112, 59);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(101, 20);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "Rol: Admin";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(570, 65);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(248, 26);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -434,6 +474,7 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -469,5 +510,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cmbCurso;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label10;
     }
 }
