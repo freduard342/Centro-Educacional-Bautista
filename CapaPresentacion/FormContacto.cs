@@ -26,5 +26,15 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCurso_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -132,5 +132,14 @@
       <Name>CapaNegocio</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo botones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondos sistema.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
