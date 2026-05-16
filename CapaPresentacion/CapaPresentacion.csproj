@@ -76,6 +76,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Listado_Maestros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Maestros.Designer.cs">
+      <DependentUpon>Listado_Maestros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormConfiguracion.resx">
