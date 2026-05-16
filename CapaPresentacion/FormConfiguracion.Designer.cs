@@ -183,10 +183,10 @@
             // 
             this.btnGuardarCambios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarCambios.Location = new System.Drawing.Point(435, 903);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(102, 903);
             this.btnGuardarCambios.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(695, 88);
+            this.btnGuardarCambios.Size = new System.Drawing.Size(1298, 88);
             this.btnGuardarCambios.TabIndex = 13;
             this.btnGuardarCambios.Text = "💾 Guardar Configuracion";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;
