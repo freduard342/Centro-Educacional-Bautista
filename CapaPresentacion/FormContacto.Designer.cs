@@ -31,19 +31,25 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.LabelPanel = new System.Windows.Forms.Label();
+            this.btnEstudiante = new System.Windows.Forms.Button();
             this.btnCurso = new System.Windows.Forms.Button();
             this.btnMaestro = new System.Windows.Forms.Button();
             this.btnContacto = new System.Windows.Forms.Button();
             this.btnMaterias = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnCerrarSeccion = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.txtMensaje = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtNumeroTutor = new System.Windows.Forms.TextBox();
@@ -54,19 +60,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnEstudiante = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -113,6 +113,23 @@
             this.LabelPanel.Size = new System.Drawing.Size(273, 66);
             this.LabelPanel.TabIndex = 1;
             this.LabelPanel.Text = "📖 Sistema de Gestion \r\n de Calificaciones ";
+            // 
+            // btnEstudiante
+            // 
+            this.btnEstudiante.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnEstudiante.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnEstudiante.FlatAppearance.BorderSize = 0;
+            this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstudiante.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstudiante.ForeColor = System.Drawing.Color.White;
+            this.btnEstudiante.Location = new System.Drawing.Point(10, 176);
+            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEstudiante.Name = "btnEstudiante";
+            this.btnEstudiante.Size = new System.Drawing.Size(272, 81);
+            this.btnEstudiante.TabIndex = 1;
+            this.btnEstudiante.Text = "📝 Registrar Estudiantes";
+            this.btnEstudiante.UseVisualStyleBackColor = false;
             // 
             // btnCurso
             // 
@@ -195,6 +212,32 @@
             this.panel2.Size = new System.Drawing.Size(1014, 101);
             this.panel2.TabIndex = 2;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(96, 51);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 20);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Rol: Admin";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(589, 61);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(249, 26);
+            this.dateTimePicker1.TabIndex = 5;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.WhatsApp_Image_2026_05_15_at_11_57_43_AM;
+            this.pictureBox2.Location = new System.Drawing.Point(14, -4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 66);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
             // btnCerrarSeccion
             // 
             this.btnCerrarSeccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -212,12 +255,23 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(624, 22);
+            this.label3.Location = new System.Drawing.Point(653, 22);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Usuario";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.login_imagen;
+            this.pictureBox1.Location = new System.Drawing.Point(606, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(39, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -291,6 +345,19 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(638, 632);
             this.panel5.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(82, 537);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 45);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Eliminar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtMensaje
             // 
@@ -394,73 +461,6 @@
             this.label8.TabIndex = 5;
             this.label8.Text = "Mensaje ";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(82, 537);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 45);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btnEstudiante
-            // 
-            this.btnEstudiante.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnEstudiante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnEstudiante.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnEstudiante.FlatAppearance.BorderSize = 0;
-            this.btnEstudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstudiante.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstudiante.ForeColor = System.Drawing.Color.White;
-            this.btnEstudiante.Location = new System.Drawing.Point(10, 176);
-            this.btnEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEstudiante.Name = "btnEstudiante";
-            this.btnEstudiante.Size = new System.Drawing.Size(272, 81);
-            this.btnEstudiante.TabIndex = 1;
-            this.btnEstudiante.Text = "📝 Registrar Estudiantes";
-            this.btnEstudiante.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.login_imagen;
-            this.pictureBox1.Location = new System.Drawing.Point(577, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(39, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.WhatsApp_Image_2026_05_15_at_11_57_43_AM;
-            this.pictureBox2.Location = new System.Drawing.Point(14, -4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 66);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(589, 61);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(249, 26);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(96, 51);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 20);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Rol: Admin";
-            // 
             // FormContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -478,14 +478,14 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
