@@ -192,7 +192,6 @@
             this.btnSeleccioneLogo.TabIndex = 15;
             this.btnSeleccioneLogo.Text = "Seleccione el Nuevo Logo";
             this.btnSeleccioneLogo.UseVisualStyleBackColor = true;
-            this.btnSeleccioneLogo.Click += new System.EventHandler(this.btnSeleccioneLogo_Click);
             // 
             // FormConfiguracion
             // 
@@ -216,7 +215,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormConfiguracion";
-            this.Text = "Form Configuracion";
+            this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
 

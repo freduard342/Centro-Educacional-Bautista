@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class FormConfiguracion : Form
+    public partial class FormMaterias : Form
     {
-        public FormConfiguracion()
+        public FormMaterias()
         {
             InitializeComponent();
+        }
+
+        private void FormMaterias_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
